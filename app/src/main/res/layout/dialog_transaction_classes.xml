@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center_horizontal">
+
+    <Spinner
+        android:id="@+id/spinnerMethod"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#FFFFFF"
+        android:popupBackground="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etDialogTxnId"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Transaction ID"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDialogConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:backgroundTint="#0E0E0E"
+        android:stateListAnimator="@null"
+        app:cornerRadius="12dp"/>
+
+</LinearLayout>

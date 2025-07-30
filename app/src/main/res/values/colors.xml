@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGrey">#A9A9A9</color>
+    <color name = "appBG">#96D8D8</color>
+    <color name = "mainColor">#00B4B4</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="light_grey">#999595</color>
+    <color name="selectColor">#A5B5CB</color>
+    <color name="lightColor">#DFE5F6</color>
+    <color name="btn">#045858</color>
+    <color name="evenLighter">#BEEEEE</color>
+</resources>
+    <!--  Bg: DFE5F6 Maiun: 6688E3-->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_register">
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.example.gymappv10.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_fragment_register_to_verifyEmailFrag"
+            app:destination="@id/verifyEmailFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyEmailFrag"
+        android:name="com.example.gymappv10.VerifyEmailFrag"
+        android:label="fragment_verify_email"
+        tools:layout="@layout/fragment_verify_email" >
+        <action
+            android:id="@+id/action_verifyEmailFrag_to_fragment_register"
+            app:destination="@id/fragment_register" />
+    </fragment>
+</navigation>
